@@ -1,0 +1,116 @@
+/* Estilos para o menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #07033a86;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+li:last-child a {
+    border-right: none; /* Remove a borda direita do último botão para evitar excesso de margens */
+}
+
+li a:hover {
+    background-color: #555;
+}
+
+nav{
+    font-family: Arial, sans-serif; /* Define a fonte de texto */
+    color: white; /* Define a cor do texto */
+    text-align: left; /* Centraliza o conteúdo no centro da página */
+    padding: 0px; /* Espaçamento interno para o conteúdo */
+}
+
+h1{
+    font-family: Arial, sans-serif; /* Define a fonte de texto */
+    color: white; /* Define a cor do texto */
+    text-align: left; /* Centraliza o conteúdo no centro da página */
+    padding: 0px; /* Espaçamento interno para o conteúdo */
+    font-size: 60px;
+    position: relative;
+    top: 120px;
+    margin-left: 60px;
+}
+
+p{
+    font-family: Arial, sans-serif; /* Define a fonte de texto */
+    color: white; /* Define a cor do texto */
+    text-align: left; /* Centraliza o conteúdo no centro da página */
+    padding: 0px; /* Espaçamento interno para o conteúdo */
+    position: relative;
+    top: 100px;
+    margin-left: 60px;
+}
+
+body {
+    background-image: url('/Projeto/imagens/onepiece.jpg'); /* Substitua pelo caminho real da imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa no lugar enquanto você rola */
+    background-position: left left; /* Centraliza a imagem horizontal e verticalmente */
+}
+
+footer{
+    font-family: Arial, sans-serif; /* Define a fonte de texto */
+    color: white; /* Define a cor do texto */
+    text-align: center; /* Centraliza o conteúdo no centro da página */
+    padding: 0px; /* Espaçamento interno para o conteúdo */
+    position: relative;
+    top: 190px;
+}
+
+/*.container {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhor legibilidade */
+   /* padding: 20px;
+}*/
+
+/* Estilos para os botões */
+
+.botoes {
+    margin-bottom: 100%;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 130px;
+}
+.inscrever-se {
+    background-color: #090125c0; /* Cor de fundo para o botão "Inscrever-se" */
+    color: white; /* Cor do texto */
+    padding: 10px 50px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    border: none; /* Remove a borda do botão */
+    border-radius: 30px; /* Borda arredondada */
+    cursor: pointer; /* Cursor do mouse em forma de mão ao passar por cima */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.entrar {
+    background-color: #090125c0; /* Cor de fundo para o botão "Entrar" */
+    color: white; /* Cor do texto */
+    padding: 10px 50px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    border: none; /* Remove a borda do botão */
+    border-radius: 30px; /* Borda arredondada */
+    cursor: pointer; /* Cursor do mouse em forma de mão ao passar por cima */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilos para alterar a cor dos botões quando o mouse passa por cima */
+.inscrever-se:hover {
+    background-color: #555; /* Cor de fundo alterada ao passar por cima */
+}
+
+.entrar:hover {
+    background-color: #555; /* Cor de fundo alterada ao passar por cima */
+}
